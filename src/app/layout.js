@@ -28,8 +28,8 @@ export default function RootLayout({ children }) {
     >
       <body className="min-h-full flex flex-col">
         <Header></Header>
-        {/* <NavLinks></NavLinks>
-        <Marque></Marque> */}
+        <NavLinks></NavLinks>
+        {/* <Marque></Marque>  */}
         {children}
       </body>
     </html>
