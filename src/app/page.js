@@ -8,7 +8,7 @@ export default function Home() {
     <div>
       <Banner></Banner>
       <IncreaseSection></IncreaseSection>
-      {/* <DecreaseSection></DecreaseSection> */}
+      <DecreaseSection></DecreaseSection>
       <Allproduct></Allproduct>
     </div>
   );
