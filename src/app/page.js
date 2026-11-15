@@ -6,10 +6,10 @@ import IncreaseSection from "@/component/Increase";
 export default function Home() {
   return (
     <div>
-      {/* <Banner></Banner>
-      <IncreaseSection></IncreaseSection>
-      <DecreaseSection></DecreaseSection>
-      <Allproduct></Allproduct> */}
+      <Banner></Banner>
+      {/* <IncreaseSection></IncreaseSection> */}
+      {/* <DecreaseSection></DecreaseSection> */}
+      {/* <Allproduct></Allproduct> */}
     </div>
   );
 }
