@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <Banner></Banner>
-      {/* <IncreaseSection></IncreaseSection> */}
+      <IncreaseSection></IncreaseSection>
       {/* <DecreaseSection></DecreaseSection> */}
       <Allproduct></Allproduct>
     </div>
