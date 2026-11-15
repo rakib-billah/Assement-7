@@ -14,7 +14,7 @@ const NavLinks = async () => {
         {data.map((catagori) => (
           <Link
             key={catagori.id}
-            href={catagori.slug}
+            href={`/category/${catagori.slug}`}
             className="rounded-lg px-3 py-2 text-sm sm:text-base text-gray-800 hover:bg-[#DADEDA] hover:text-[##DADEDA]"
           >
             {catagori.icon} {catagori.nameBn}

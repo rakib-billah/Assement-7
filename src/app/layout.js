@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "@/component/Header";
 import NavLinks from "@/component/NavLinks";
 import Marque from "@/component/Marque";
+import Footer from "@/component/Footer";
 
 //Design Section
 const geistSans = Geist({
@@ -31,6 +32,7 @@ export default function RootLayout({ children }) {
         <NavLinks></NavLinks>
         <Marque></Marque>
         {children}
+        <Footer></Footer>
       </body>
     </html>
   );
