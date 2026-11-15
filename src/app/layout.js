@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
       <body className="min-h-full flex flex-col">
         <Header></Header>
         <NavLinks></NavLinks>
-        {/* <Marque></Marque>  */}
+        <Marque></Marque>
         {children}
       </body>
     </html>
